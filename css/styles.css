@@ -16,7 +16,39 @@ Dark Olive Green #6e3738
 */
 body {
    background-image: url("../images/background_galaxy.jpg");background-repeat: repeat-y;
+   font-family: 'Open Sans', sans-serif;
 }
 header {
    background-color: #3f6b96;
+   min-height: 300px;
+   max-width: 980px;
+   margin: 0 auto;
+   border-radius: 25px;
+   color: white;
+}
+img {
+   border-radius: 50%;
+   margin: 20px;
+   float: left;
+}
+header h1 {
+   font-family: 'Rubik Mono One', sans-serif;
+   font-weight: 700;
+   font-size: 35px;
+   margin: 0;
+   padding: 35px 0 0 0;
+}
+header h2 {
+   font-size: 25px;
+}
+header p {
+   width: 85%;
+}
+
+main {
+   background-color: #e7ceb2;
+   max-width: 980px;
+   margin: 0 auto;
+   border-radius: 25px;
+   color: #1a0d0e;
 }
