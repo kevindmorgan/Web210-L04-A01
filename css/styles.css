@@ -1,0 +1,22 @@
+/*********  Web Design
+**********  2019FA.WEB.210.4101
+**********  Nicolas D'Agata
+**********  Lesson 04 - Assignment 01
+**********  Kevin Morgan
+**********  09/12/2019
+*/
+
+/*
+GALAXY
+Pale Goldenrod #e7ceb2
+Steel Blue #3f6b96
+Indian Red #b7695d
+Black #1a0d0e
+Dark Olive Green #6e3738
+*/
+body {
+   background-image: url("../images/background_galaxy.jpg");background-repeat: repeat-y;
+}
+header {
+   background-color: #3f6b96;
+}
