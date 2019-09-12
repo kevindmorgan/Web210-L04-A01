@@ -59,8 +59,38 @@ header h1 {
    font-family: 'Rubik Mono One', sans-serif;
    font-weight: 700;
    font-size: 35px;
+   color: white;
    margin: 0;
    padding: 35px 0 0 0;
+/*--------------------------------------
+      Set Up the Font Animation
+--------------------------------------*/
+   -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+   -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+   animation-name: example;
+   animation-duration: 4s;
+   animation-iteration-count: 5;
+}
+/*--------------------------------------
+      Animate the Name
+--------------------------------------*/
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+   0%   {color: #ffffff;}
+   20%  {color: #e5e5e5;}
+   40%  {color: #7c7c7c;}
+   60%  {color: #606060;}
+   80%  {color: #7c7c7c;}
+   100% {color: #e5e5e5;}
+}
+/* Standard syntax */
+@keyframes example {
+   0%   {color: #ffffff;}
+   20%  {color: #e5e5e5;}
+   40%  {color: #7c7c7c;}
+   60%  {color: #606060;}
+   80%  {color: #7c7c7c;}
+   100% {color: #e5e5e5;}
 }
 header p {
    width: 85%;
