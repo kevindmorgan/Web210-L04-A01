@@ -6,27 +6,51 @@
 **********  09/12/2019
 */
 
-/*
-GALAXY
+/* Background Galaxy Pic Palette
 Pale Goldenrod #e7ceb2
 Steel Blue #3f6b96
 Indian Red #b7695d
 Black #1a0d0e
-Dark Olive Green #6e3738
-*/
+Dark Olive Green #6e3738 */
+
+/*--------------------------------------
+      Global Styles
+--------------------------------------*/
 body {
    background-image: url("../images/background_galaxy.jpg");background-repeat: repeat-y;
+   background-attachment: fixed;
    font-family: 'Open Sans', sans-serif;
+   font-size: 1.1em;
 }
+h2 {
+   font-family: 'Kite One', sans-serif;
+   font-size: 25px;
+}
+.container {
+   max-width: 980px;
+   margin: 0 auto;
+}
+.column-narrow {
+   width: 30%;
+   float: left;
+   padding-right: 10px;
+}
+ .column-wide {
+   width: 65%;
+   float: left;
+   border-left: solid 2px #1a0d0e;
+}
+
+/*--------------------------------------
+      Header Section Styles
+--------------------------------------*/
 header {
    background-color: #3f6b96;
    min-height: 300px;
-   max-width: 980px;
-   margin: 0 auto;
-   border-radius: 25px;
    color: white;
+   border-radius: 25px;
 }
-img {
+header img {
    border-radius: 50%;
    margin: 20px;
    float: left;
@@ -38,17 +62,78 @@ header h1 {
    margin: 0;
    padding: 35px 0 0 0;
 }
-header h2 {
-   font-size: 25px;
-}
 header p {
    width: 85%;
 }
 
-main {
+/*--------------------------------------
+      Experience Section Styles
+--------------------------------------*/
+.experience {
    background-color: #e7ceb2;
-   max-width: 980px;
-   margin: 0 auto;
-   border-radius: 25px;
    color: #1a0d0e;
+   border-radius: 25px;
+   padding-left: 25px;
+}
+section.experience h2 {
+   padding-top: 10px;
+   text-align: center;
+}
+.card1 {
+   clear: both;
+   min-height: 150px;
+}
+
+/*--------------------------------------
+      Education Section Styles
+--------------------------------------*/
+.education {
+   background-color: #b7695d;
+   color: #1a0d0e;
+   border-radius: 25px;
+   padding-left: 25px;
+}
+section.education h2 {
+   padding-top: 10px;
+   text-align: center;
+}
+section.education h4 {
+   margin: 0;
+   padding: 0 10px;
+}
+section.education p {
+   margin: 0;
+   padding: 0 10px;
+}
+.card2 {
+   clear: both;
+   min-height: 100px;
+}
+section.card2 h3 {
+   margin: 0;
+}
+
+/*--------------------------------------
+      Footer Section Styles
+--------------------------------------*/
+footer {
+   text-align: center;
+   background-color: #3f6b96;
+   min-height: 170px;
+   color: white;
+   border-radius: 25px;
+}
+footer h2 {
+   padding-top: 30px;
+}
+footer a {
+   margin-bottom: 10px;
+}
+footer a:link, footer a:visited {
+   color: white;
+   text-decoration: none;
+}
+footer a:hover {
+   background-color: white;
+   color: #3f6b96;
 }
